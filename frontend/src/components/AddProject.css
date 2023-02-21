@@ -1,0 +1,52 @@
+
+.create{
+  max-width: 100%;
+
+  margin: 0 auto;
+  text-align: center
+}
+
+.input {
+  background-color: var(--color-dark);
+}
+.create label {
+    color: var(--color-main);
+    text-align: center;
+    display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: var(--color-white);
+}
+.create textarea, .create input{
+  height: 5vh;
+  max-width: 100%;
+  width: 90%;
+  margin: 5px 5px;
+  border: 2px solid var(--color-main);
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.create-button {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+  display:inline-flex;
+  font-size: 20px;
+  background: var(--color-dark);
+  border: none;
+  width: 140px;
+  height: 35px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-button > svg {
+  fill: var(--color-bg);
+}

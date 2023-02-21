@@ -1,0 +1,77 @@
+.dropdown{
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    user-select: none;
+    align-items: center;
+}
+
+.dropdown-button-icon{
+    font-size: 48px;
+    position: relative;
+    background: var(--color-text);
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.span{
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown .dropdown-btn{
+    padding: 5px 5px;
+    background: var(--color-dark);
+    font-weight: bold;
+    color: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--color-gray);
+    justify-content: space-between;
+}
+
+.dropdown .dropdown-btn h3{
+    color: var(--color-white);
+    background-color: var(--color);
+    position: relative;
+    margin: 0 auto;
+}
+
+.dropdown .dropdown-content {
+    position: relative;
+    top: 110%;
+    padding: 15px;
+    background: var(--color-gray);
+    font-weight: bold;
+
+}
+
+.dropdown .dropdown-item {
+    
+    color: var(--color-dark);
+}
+
+
+.dropdown .dropdown-content .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+
+.dropdown .dropdown-content .dropdown-item:hover {
+    background: #f4f4f4;
+
+}

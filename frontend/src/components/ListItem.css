@@ -1,0 +1,7 @@
+
+.list-item {
+    border-bottom: 1px solid  var(--color-border);
+    margin-bottom: 12px;
+    padding: 8px 16px;
+    transition: all 0.2s ease-in-out;
+  }

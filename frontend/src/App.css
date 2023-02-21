@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap');
+
+:root {
+  --color-main: #f68657;
+  --color-text: #383a3f;
+  --color-dark: #1f2124;
+  --color-gray: #677;
+  --color-bg: #f3f6f9;
+  --color-light: #acb4bd;
+  --color-lighter: #f9f9f9;
+  --color-white: #fff;
+  --color-border:#252629;
+}
+
+.dark {
+  --color-main: #f68657;
+  --color-text: #d6d1d1;
+  --color-dark: #2e3235;
+  --color-gray: #999;
+  --color-bg: #1f2124;
+  --color-lighter: #292a2c;
+  --color-white: #f5f6f7;
+  --color-border:#252629;
+}
+
+/* ---------------- Base styles ---------------- */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+  color: inherit;
+  font-size: inherit;
+  scroll-behavior: smooth;
+}
+
+body{
+  line-height: 1.8em;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------------- App styles ---------------- */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  display: flex;
+  align-items: center;
+}
+.task-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-between;
+  background-color: var(--color-lighter);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-header h1 {
+  font-size: 30px;
+  color: var(--color-dark);
+  font-weight: 800;
+  text-align: center;
+}
+
+.app-header button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.app-header button > svg {
+  fill: var(--color-dark);
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
+
+.app-body {
+  padding: 16px;
+}

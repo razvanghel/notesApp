@@ -1,0 +1,13 @@
+  .projects-list {
+    padding: 0;
+    overflow-y: scroll;
+    height: 80vh;
+  }
+  .projects {
+    height: 80vh;
+  }
+  .projects-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
